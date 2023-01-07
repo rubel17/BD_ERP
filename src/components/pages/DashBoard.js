@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./DashBoard.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const DashBoard = () => {
   return (
@@ -18,24 +18,15 @@ const DashBoard = () => {
               <Navbar>
                 <Container>
                   <Nav>
-                    <Nav.Link
-                      style={{ backgroundColor: "gray" }}
-                      href="/OtherDetails"
-                    >
+                    <Link className="link" to="/OtherDetails">
                       Other Details
-                    </Nav.Link>
-                    <Nav.Link
-                      style={{ backgroundColor: "gray" }}
-                      href="/Address"
-                    >
+                    </Link>
+                    <Link className="link" to="/Address">
                       Address
-                    </Nav.Link>
-                    <Nav.Link
-                      style={{ backgroundColor: "gray" }}
-                      href="/ContactPerson"
-                    >
+                    </Link>
+                    <Link className="link" to="/ContactPerson">
                       Contact Person
-                    </Nav.Link>
+                    </Link>
                   </Nav>
                 </Container>
               </Navbar>

@@ -2,3 +2,10 @@
     border-right: 7px solid whitesmoke;
     height: 900px;
 }
+.link{
+    text-decoration: none;
+   padding: 8px;
+    background-color:grey;
+    color: white;
+    
+}
