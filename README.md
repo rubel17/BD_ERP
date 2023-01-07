@@ -4,7 +4,7 @@
 
 ## Live Link
 
-- https://bd-erp.netlify.app/Address
+- https://bd-erp.netlify.app
 
 # Input Type(BILLING ADDRESS).
 
